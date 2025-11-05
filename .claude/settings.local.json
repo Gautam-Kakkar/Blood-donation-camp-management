@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(npm run seed:*)",
+      "Bash(npm run seed:inventory:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Blood Donation Camp Management System\n\nThis commit includes the complete blood donation camp management system with:\n- Server-side API with Express.js and MongoDB\n- Client-side React application\n- Authentication and authorization\n- Camp management features\n- Donor and donation tracking\n- Inventory management\n- Analytics and reporting\n- Notification system\n- Comprehensive documentation\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nSecurity: Remove exposed credentials from documentation\n\nReplace actual MongoDB URI examples with placeholder values to prevent\nGitHub secret detection alerts. Updated files:\n- docs/PRD.md\n- docs/PROJECT_COMPLETE_GUIDE.md\n- server/.env.example\n\nAll sensitive values now use <placeholder> format instead of example\ncredentials that could be mistaken for real secrets.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
